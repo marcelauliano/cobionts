@@ -17,4 +17,4 @@ As the GC content of the wolbachia reads do not deviate much of the species read
 
 # Step 2: Identifying co-bionts possible reads: 
 # Wolbachia
-
+I've downloaded a number of 16S 
