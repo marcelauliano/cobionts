@@ -27,5 +27,6 @@ I've downloaded 54 sequences of 16S wolbachia endosymbionts of various organisms
 ### Step 2.2: Clustering
 So the next idea was to take these first identified reads cluster them and inquire if it would be worth to search more deeply for reads of this organism to do genome assembly. I have used PacBio tool pbampliconclustering for such https://github.com/PacificBiosciences/pbampliconclustering 
 
-`python /software/team311/mu2/pbampliconclustering/ClusterAmplicons.py cluster -j 20 -g 2 -X -p <out.file> -F -Q <fastq_file_to_cluster.fasq>`
+`python ClusterAmplicons.py cluster -j 20 -g 2 -X -p <out.file> -F -Q <fastq_file_to_cluster.fasq>`
 
+>This program has classified 577 reads as noise, and has created 49 clusters with the following nreads 3469,2889,522,521,468,247,92,40,32,31,29,23,23,16,15,14,12,10,10,9,9,9,9,8,8,7,7,6,6,6,6,6,6,6,5,5,5,5,5,5,5,5,5,5,5,5,5,3,3
