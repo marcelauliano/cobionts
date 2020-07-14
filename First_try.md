@@ -17,4 +17,7 @@ As the GC content of the wolbachia reads do not deviate much of the species read
 
 # Step 2: Identifying co-bionts possible reads: 
 # Wolbachia
-I've downloaded a number of 16S 
+I've downloaded 54 sequences of 16S wolbachia endosymbionts of various organisms from ENA, created an aligment from them with clustalw and have input it to a nhmmer search against all IlPhaBuce1 PacBio reads.
+
+`nhmmer --cpu 30 --tblout <output.tbl> <all.HiFi.fasta>`
+
