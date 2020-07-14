@@ -25,4 +25,7 @@ I've downloaded 54 sequences of 16S wolbachia endosymbionts of various organisms
 > This has identified 9271 reads. 
 
 ### Step 2.2: Clustering
-So the next idea was to take these first identified reads cluster them and inquire if it would be worth to search more deeply for reads of this organism to do genome assembly. I have used PacBio tool pbampliconclustering for such 
+So the next idea was to take these first identified reads cluster them and inquire if it would be worth to search more deeply for reads of this organism to do genome assembly. I have used PacBio tool pbampliconclustering for such https://github.com/PacificBiosciences/pbampliconclustering 
+
+`python /software/team311/mu2/pbampliconclustering/ClusterAmplicons.py cluster -j 20 -g 2 -X -p <out.file> -F -Q <fastq_file_to_cluster.fasq>`
+
