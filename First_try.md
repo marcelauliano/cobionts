@@ -7,3 +7,9 @@ One of the first ideas is to plot the GC% of the reads. Lava lamp plots can show
 
 
 ![Screenshot](image.png)
+
+
+## GC% only for wolbachia reads
+As the GC content of the wolbachia reads do not deviate much of the species reads we don't see them in the lavalamp plot.
+
+![Screenshot]
