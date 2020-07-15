@@ -45,4 +45,14 @@ Lots of things to discuss here:
     
     3.2. I've done a prokka annotation of scaffold_16 (one assembled wolbachia): `/lustre/scratch116/vr/projects/vgp/user/mu2/ilPhaBuce1/wolbachia/annotation_assembled_wol `
 
+##Step 3: Identifying co-bionts possible reads: 
+## SSU_rRNA_bacteria RF00177 stockholm format downloaded from Rfam
+`hmmbuild out RF00177.stockholm.txt`
+`nhmmer --tblout <output.tbl> out <all.HiFi.fasta>
 
+> This has identified 9727 reads. All 9271 identified with the 16S wolbachia search above are contained in this 9727 reads.
+
+### Step 3.2: Clustering
+
+`python ClusterAmplicons.py cluster -j 20 -g 2 -X -p <out.file> -F -Q <fastq_file_to_cluster.fasq>`
+> This program has classified 648 reads as noise and has created 59 clusters with the following nreads 3576,3032,548,507,499,238,104,38,36,28,27,24,20,19,16,16,13,12,11,11,11,10,10,9,8,8,8,8,8,8,7,7,7,7,7,7,7,6,6,6,6,6,6,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4
