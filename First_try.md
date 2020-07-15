@@ -30,3 +30,8 @@ So the next idea was to take these first identified reads cluster them and inqui
 `python ClusterAmplicons.py cluster -j 20 -g 2 -X -p <out.file> -F -Q <fastq_file_to_cluster.fasq>`
 
 >This program has classified 577 reads as noise, and has created 49 clusters with the following nreads 3469,2889,522,521,468,247,92,40,32,31,29,23,23,16,15,14,12,10,10,9,9,9,9,8,8,7,7,6,6,6,6,6,6,6,5,5,5,5,5,5,5,5,5,5,5,5,5,3,3
+
+PCA of the above clusters generate by pbampliconclustering
+
+![Screenshot] (wolbachiasome.out.tb1.sortu.clusteragain.clusters.png)
+
