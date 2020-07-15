@@ -45,7 +45,8 @@ Lots of things to discuss here:
     
     3.2. I've done a prokka annotation of scaffold_16 (one assembled wolbachia): `/lustre/scratch116/vr/projects/vgp/user/mu2/ilPhaBuce1/wolbachia/annotation_assembled_wol `
 
-#Step 3: Identifying co-bionts possible reads:
+
+# Step 3: Identifying co-bionts possible reads:
 ## SSU_rRNA_bacteria RF00177 stockholm format downloaded from Rfam
 `hmmbuild out RF00177.stockholm.txt`
 `nhmmer --tblout <output.tbl> out <all.HiFi.fasta>
