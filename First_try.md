@@ -57,3 +57,6 @@ Lots of things to discuss here:
 
 `python ClusterAmplicons.py cluster -j 20 -g 2 -X -p <out.file> -F -Q <fastq_file_to_cluster.fasq>`
 > This program has classified 648 reads as noise and has created 59 clusters with the following nreads 3576,3032,548,507,499,238,104,38,36,28,27,24,20,19,16,16,13,12,11,11,11,10,10,9,8,8,8,8,8,8,7,7,7,7,7,7,7,6,6,6,6,6,6,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4
+
+PCA of cluster is the same as the reads are almost all the same
+![Screenshot](SSU_rRNA_bacteria.clusterAGAIN.clusters.png)
