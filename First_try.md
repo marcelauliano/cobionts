@@ -33,5 +33,5 @@ So the next idea was to take these first identified reads cluster them and inqui
 
 PCA of the above clusters generate by pbampliconclustering
 
-![Screenshot] (wolbachiasome.out.tb1.sortu.clusteragain.clusters.png)
+![Screenshot](wolbachiasome.out.tb1.sortu.clusteragain.clusters.png)
 
