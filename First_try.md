@@ -41,7 +41,7 @@ Lots of things to discuss here:
 2. For the 9271 reads identified with the hnmmer profile of 16S wolbachia endosymbiont, only 64 are the reads assembled as wolbachia with Hicany. Why so few? 
 3. If I do a blast search of the 16S sequences used in the nhmer profile with the wolbachias assembled by Hicanu, I don't find matches for the 2 well assembled genomes, only for the fragments `/lustre/scratch116/vr/projects/vgp/user/mu2/ilPhaBuce1/wolbachia/blast/ilPhaBuce_wolbAll.fawolbachia.ena.fastaALL.blastn.cov `
 
-  3.1. This brings up a question about which marker to use to really fish the reads out in this expedition.
-  3.2. I've done a prokka annotation of scaffold_16 (one assembled wolbachia): `/lustre/scratch116/vr/projects/vgp/user/mu2/ilPhaBuce1/wolbachia/annotation_assembled_wol `
+    3.1. This brings up a question about which marker to use to really fish the reads out in this expedition.
+    3.2. I've done a prokka annotation of scaffold_16 (one assembled wolbachia): `/lustre/scratch116/vr/projects/vgp/user/mu2/ilPhaBuce1/wolbachia/annotation_assembled_wol `
 
 
