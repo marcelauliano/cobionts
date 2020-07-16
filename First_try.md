@@ -8,7 +8,7 @@ One of the first ideas is to plot the GC% of the reads. Lava lamp plots can show
 
 ![Screenshot](image.png)
 
-##GC% from KAT density plot (quicker to run than Lavalamp)##
+## GC% from KAT density plot (quicker to run than Lavalamp)
 
 ![Screenshot](kat-gcp.mx.png) 
 
