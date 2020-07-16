@@ -8,6 +8,10 @@ One of the first ideas is to plot the GC% of the reads. Lava lamp plots can show
 
 ![Screenshot](image.png)
 
+##GC% from KAT density plot (quicker to run than Lavalamp)
+
+
+
 
 ## GC% only for wolbachia reads
 As the GC content of the wolbachia reads (indentifed after assembly) do not deviate much of the species reads we don't see them in the lavalamp plot.
