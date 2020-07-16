@@ -65,3 +65,8 @@ Lots of things to discuss here:
 
 PCA of cluster is the same as the reads are almost all the same
 ![Screenshot](SSU_rRNA_bacteria.clusterAGAIN.clusters.png)
+
+
+## What is beeing fished out
+
+From both, the nhmer search with wolbachia 16S or SSU_rRNA_bacteria RF0017, we fished 9271 reads. I've mapped them back to ilPhaBuce1 assembly (containing wolbachia scaffolds) and found that 64 reads mapped back to the wolbachia, and other reads map to the species scaffolds. For example, scaffold_27 has 2658 reads mapped back to it. I went and blast some of these sequences, and they blas to large ribosomal subunit of different moths. The conclusion so far is that this nhmer method is fishing not only bacteria, but also moths ribossonal reads too. 
