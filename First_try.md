@@ -27,7 +27,7 @@ I've downloaded 54 sequences of 16S wolbachia endosymbionts of various organisms
 `hmmbuild --dna wolbachia.ena.some.hmm  wolbachia.ena.fasta.aln`
 `nhmmer --cpu 30 --tblout <output.tbl> wolbachia.ena.some.hmm <all.HiFi.fasta>`
 
-> This has identified 9271 reads. 
+> This has identified 9271 reads (9213 reads with <= evalue 1-05). 
 
 ### Step 2.2: Clustering
 So the next idea was to take these first identified reads cluster them and inquire if it would be worth to search more deeply for reads of this organism to do genome assembly. I have used PacBio tool pbampliconclustering for such https://github.com/PacificBiosciences/pbampliconclustering 
@@ -56,7 +56,7 @@ Lots of things to discuss here:
 `hmmbuild out RF00177.stockholm.txt`
 `nhmmer --tblout <output.tbl> out <all.HiFi.fasta>
 
-> This has identified 9727 reads. All 9271 identified with the 16S wolbachia search above are contained in this 9727 reads.
+> This has identified 9727 reads (9212 reads with <= evalue 1-05. All 9271 identified with the 16S wolbachia search above are contained in this 9727 reads.
 
 ### Step 3.2: Clustering
 
